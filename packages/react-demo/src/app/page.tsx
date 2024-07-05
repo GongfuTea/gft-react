@@ -1,4 +1,14 @@
+import { Button } from "@gft-ui/shadcn-ui";
 import Image from "next/image";
+
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@gft-ui/shadcn-ui/components/ui/card";
 
 export default function Home() {
   return (
@@ -38,7 +48,22 @@ export default function Home() {
           priority
         />
       </div>
+      <Card>
+        <CardHeader>
+          <CardTitle>Card Title</CardTitle>
+          <CardDescription>Card Description</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p>Card Content</p>
+        </CardContent>
+        <CardFooter>
+          <p>Card Footer</p>
+        </CardFooter>
+      </Card>
 
+      <Button className="mt-16" variant="outline" size="lg">
+        Get started
+      </Button>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
