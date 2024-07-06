@@ -1,9 +1,19 @@
 {
   "name": "@gft-ui/shadcn-ui",
+  "description": "This project serves as a convenient wrapper around the `shadcn-ui` components, aiming to streamline their integration and usage within your projects.",
+  "keywords": [
+    "react",
+    "shadcn-ui"
+  ],
   "version": "0.2.0",
   "type": "module",
   "main": "index.ts",
   "module": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GongfuTea/gft-react",
+    "directory": "packages/shadcn-ui"
+  },
   "scripts": {},
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
