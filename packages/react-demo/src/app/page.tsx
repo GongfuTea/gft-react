@@ -1,6 +1,4 @@
-import { Badge, Button } from "@gft-ui/shadcn-ui";
 import Image from "next/image";
-
 import {
   Card,
   CardContent,
@@ -9,6 +7,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@gft-ui/shadcn-ui/components/ui/card";
+import { Badge } from "@gft-ui/shadcn-ui/components/ui/badge";
+import { Button } from "@gft-ui/shadcn-ui/components/ui/button";
 
 export default function Home() {
   return (
