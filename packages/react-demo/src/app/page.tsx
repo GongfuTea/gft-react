@@ -1,4 +1,4 @@
-import { Button } from "@gft-ui/shadcn-ui";
+import { Badge, Button } from "@gft-ui/shadcn-ui";
 import Image from "next/image";
 
 import {
@@ -64,6 +64,8 @@ export default function Home() {
       <Button className="mt-16" variant="outline" size="lg">
         Get started
       </Button>
+
+      <Badge>ffs</Badge>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
