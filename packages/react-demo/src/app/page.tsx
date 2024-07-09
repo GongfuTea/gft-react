@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import {
   Card,
@@ -7,8 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@gft-ui/shadcn-ui/components/ui/card";
-import { Badge } from "@gft-ui/shadcn-ui/components/ui/badge";
-import { Button } from "@gft-ui/shadcn-ui/components/ui/button";
 
 export default function Home() {
   return (
@@ -61,11 +61,11 @@ export default function Home() {
         </CardFooter>
       </Card>
 
-      <Button className="mt-16" variant="outline" size="lg">
+      <button className="mt-16" >
         Get started
-      </Button>
+      </button>
 
-      <Badge>ffs</Badge>
+
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
