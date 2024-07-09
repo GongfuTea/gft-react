@@ -18,7 +18,7 @@ To fully leverage the `shadcn-ui` components within your project, you must also 
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    './node_modules/@gft-ui/shadcn-ui/**/*.{ts,tsx}'
+    './node_modules/@gft-ui/shadcn-ui/**/*.{ts,tsx,js}'
   ],
 
 ```
