@@ -1,4 +1,4 @@
-# @gft-ui/shadcn-ui
+# @gft-react/shadcn-ui
 
 
 This project serves as a convenient wrapper around the `shadcn-ui` components, aiming to streamline their integration and usage within your projects. It's designed to bring together the powerful UI components from `shadcn-ui` under a unified and simplified interface.
@@ -18,7 +18,7 @@ To fully leverage the `shadcn-ui` components within your project, you must also 
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    './node_modules/@gft-ui/shadcn-ui/**/*.{ts,tsx,js}'
+    './node_modules/@gft-react/shadcn-ui/**/*.{ts,tsx,js}'
   ],
 
 ```

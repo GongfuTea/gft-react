@@ -3,7 +3,7 @@
   "description": "This project serves as a convenient wrapper around the `shadcn-ui` components, aiming to streamline their integration and usage within your projects.",
   "keywords": [
     "react",
-    "gft-ui",
+    "gft-react",
     "shadcn-ui"
   ],
   "version": "0.2.3",
