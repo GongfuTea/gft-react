@@ -1,5 +1,5 @@
 {
-  "name": "@gft-react/shadcn-ui-zod-form",
+  "name": "@gft-react/shadcn-ui-tanstack-form",
   "description": "This project serves as a convenient wrapper around the `shadcn-ui` components, aiming to streamline their integration and usage within your projects.",
   "keywords": [
     "react",
@@ -20,9 +20,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/GongfuTea/gft-react",
-    "directory": "packages/shadcn-ui"
+    "directory": "packages/shadcn-ui-tanstack-form"
   },
   "dependencies": {
+    "@gft-react/shadcn-ui": "workspace:*",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -52,7 +53,9 @@
     "@radix-ui/react-toggle": "^1.1.0",
     "@radix-ui/react-toggle-group": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
+    "@tanstack/react-form": "^0.26.4",
     "@tanstack/react-table": "^8.19.2",
+    "@tanstack/zod-form-adapter": "^0.26.4",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",

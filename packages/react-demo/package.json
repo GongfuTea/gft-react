@@ -10,7 +10,8 @@
   },
   "packageManager": "pnpm@9.2.0",
   "dependencies": {
-    "@gft-ui/shadcn-ui": "^0.2.2",
+    "@gft-react/shadcn-ui": "workspace:*",
+    "@gft-react/shadcn-ui-tanstack-form": "workspace:*",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
