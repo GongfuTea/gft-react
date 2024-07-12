@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
   Button,
-} from "@gft-ui/shadcn-ui";
+} from "@gft-react/shadcn-ui";
 
 export default function Home() {
   return (

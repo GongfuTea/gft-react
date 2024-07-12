@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    './node_modules/@gft-ui/shadcn-ui/**/*.{ts,tsx,js}'
+    './node_modules/@gft-react/shadcn-ui/**/*.{ts,tsx,js}'
 	],
   prefix: "",
   theme: {
